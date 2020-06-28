@@ -2,26 +2,33 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Ildana Ruzybayeva | Full-stack developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
+  title: 'Hej, my name is',
+  name: 'Ildana Ruzybayeva',
   subtitle: '',
-  cta: '',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.PNG',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: `I am looking to join a company which brings positive change to
+   people with its product. I have previously done a lot of non-profit and research work on education, 
+   climate change and gender equality. While there are many ideas on how to make this world a better place, 
+   I believe coding actually helps to turn many ideas into real solutions`,
+  paragraphTwo: `I value mentorship and knowledge sharing. 
+  Currently I am teaching girls to code for free by hosting JS study circles. 
+  I have also worked as a code mentor for Pink programming bootcamp.`,
+  paragraphThree: `Technologies I worked with so far include: Javascript ES5+, ReactJS,
+   NodeJS/Express, MySQL, PostgreSQL, HTML/CSS, GatsbyJS, Gitpod, GraphQL, Git/Github, Jasmine. 
+   I focus deeply on these skills and the new ones are added when certain experience level is reached`,
+  resume: 'https://www.linkedin.com/in/ruzybayeva/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -60,8 +67,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta:
+    'That was me. I am curious to learn about you. Feel free to contact me regarding job-offers, mentorship or other code-realated activities. ',
+  btn: 'Email',
   email: 'ildana.ruzybayeva@gmail.com',
 };
 
