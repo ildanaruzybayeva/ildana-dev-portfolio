@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Ildana Ruzybayeva | Full-stack developer', // e.g: 'Name | Developer'
+  // title: 'Ildana Ruzybayeva | Full-stack developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.PNG',
+  img: 'profile.JPG',
   paragraphOne: `I am looking to join a company which brings positive change to
    people with its product. I have previously done a lot of non-profit and research work on education, 
    climate change and gender equality. While there are many ideas on how to make this world a better place, 
