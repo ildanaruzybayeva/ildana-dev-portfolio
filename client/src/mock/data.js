@@ -35,6 +35,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'discover-kz.png',
+    title: 'Discover-Kazakhstan (Chrome Extension)',
+    info:
+      'Full Stack React / Nodejs chrome extension. Get latest news, personalized greeting, exchange rates, weather updates, featured photo and a quote straight from Almaty / Kazakhstan. All in one place - your chrome browser.',
+    info2: '#reacthooks #nodejs #postgreSQL #gitpod',
+    url: 'https://discover-kz-extension.netlify.app/',
+    repo: 'https://github.com/ildanaruzybayeva/discover-kz-chrome-extenstion', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'tretton37.PNG',
     title: '_tretton37-ninjas',
     info:
